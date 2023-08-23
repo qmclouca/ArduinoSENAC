@@ -20,21 +20,16 @@ void loop() {
 
 void ligaVerde() {
   digitalWrite(2, HIGH);
-  delay(1000);
-  digitalWrite(2, LOW);
-  delay(1000);
 }
+void desligaVerde() {
+  digitalWrite(2, LOW);
+}
+
 void ligaAmarelo() {
-  digitalWrite(3, HIGH);
-  delay(1000);
-  digitalWrite(3, LOW);
-  delay(1000);
+  digitalWrite(3, HIGH);  
 }
 void ligaVermelho() {
-  digitalWrite(4, HIGH);
-  delay(1000);
-  digitalWrite(4, LOW);
-  delay(1000);
+  digitalWrite(4, HIGH);  
 }
 
 void leSensor() {
